@@ -14,15 +14,8 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 dcursor = mydb.cursor(dictionary=True)
 
-# mycursor.execute("SQL CODE")
-# mydb.commit()
-# mycursor.fetchall()
-
-# dcursor.execute('SELECT * FROM user_information WHERE 
-#                  user_email = %s AND userid = %s',(email, ID))
-# account = dcursor.fetchone()
-
 # Call all the stored procedures
+
 # FETCH_PROCEDURES
 results = []
 
